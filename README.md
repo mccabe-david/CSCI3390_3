@@ -30,7 +30,7 @@ Apply `verifyMIS` locally with the parameter combinations listed in the table be
 | small_edges.csv         | small_edges_MIS.csv          | Yes        |
 | small_edges.csv         | small_edges_non_MIS.csv      | No         |
 | line_100_edges.csv      | line_100_MIS_test_1.csv      | ?          |
-| line_100_edges.csv      | line_100_MIS_test_2.csv      | ?          |
+| line_100_edges.csv      | line_100_MIS_test_2.csv      | No          |
 | twitter_10000_edges.csv | twitter_10000_MIS_test_1.csv | ?          |
 | twitter_10000_edges.csv | twitter_10000_MIS_test_2.csv | ?          |
 
