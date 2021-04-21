@@ -23,5 +23,11 @@
 | twitter_10000_edges.csv |          4         |       11s      |
 
 3. **(3 points)**  
-a. Run `LubyMIS` on `twitter_original_edges.csv` in GCP with 3x4 cores. Report the number of iterations, running time, and remaining active vertices (i.e. vertices whose status has yet to be determined) at the end of **each iteration**. You may need to include additional print statements in `LubyMIS` in order to acquire this information. Finally, verify your outputs with `verifyMIS`.  
+a.  
+Total runtime = 2703s.  
+Total Iterations = 14.  
+Remaining Vertices after each iteration = {7505596, 55316, 5779, 1233, 349, 159, 76, 40, 22, 16, 14, 6, 2, 0}  
+![prt1](https://user-images.githubusercontent.com/43038510/115490726-a5de4480-a22c-11eb-8072-f2d3c1650aa9.PNG)  
+![prt2](https://user-images.githubusercontent.com/43038510/115490763-bee6f580-a22c-11eb-9775-67277ad8cb1a.PNG)
+
 b. Run `LubyMIS` on `twitter_original_edges.csv` with 4x2 cores and then 2x2 cores. Compare the running times between the 3 jobs with varying core specifications that you submitted in **3a** and **3b**.
