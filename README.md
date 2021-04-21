@@ -2,7 +2,7 @@
 ## David McCabe  
 
 1. **(4 points)** Implement the `verifyMIS` function.  
-2.
+
 |        Graph file       |           MIS file           | Is an MIS? |
 | ----------------------- | ---------------------------- | ---------- |
 | small_edges.csv         | small_edges_MIS.csv          | Yes        |
@@ -30,4 +30,7 @@ Remaining Vertices after each iteration = {7505596, 55316, 5779, 1233, 349, 159,
 ![prt1](https://user-images.githubusercontent.com/43038510/115490726-a5de4480-a22c-11eb-8072-f2d3c1650aa9.PNG)  
 ![prt2](https://user-images.githubusercontent.com/43038510/115490763-bee6f580-a22c-11eb-9775-67277ad8cb1a.PNG)
 
-b. Run `LubyMIS` on `twitter_original_edges.csv` with 4x2 cores and then 2x2 cores. Compare the running times between the 3 jobs with varying core specifications that you submitted in **3a** and **3b**.
+b.  
+**4x2 cores**  
+
+**2x2 cores** 
