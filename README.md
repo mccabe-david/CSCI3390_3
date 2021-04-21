@@ -2,6 +2,7 @@
 ## David McCabe  
 
 1. **(4 points)** Implement the `verifyMIS` function.  
+2.
 |        Graph file       |           MIS file           | Is an MIS? |
 | ----------------------- | ---------------------------- | ---------- |
 | small_edges.csv         | small_edges_MIS.csv          | Yes        |
@@ -12,6 +13,7 @@
 | twitter_10000_edges.csv | twitter_10000_MIS_test_2.csv | Yes        |
 
 2. **(3 points)** Implement the `LubyMIS` function.   
+
 |        Graph file       |     Iterations     |    Runtime     |
 | ----------------------- | ------------------ | -------------- |
 | small_edges.csv         |          2         |       6s       |
