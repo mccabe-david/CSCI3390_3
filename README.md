@@ -31,6 +31,8 @@ Remaining Vertices after each iteration = {7505596, 55316, 5779, 1233, 349, 159,
 ![prt2](https://user-images.githubusercontent.com/43038510/115490763-bee6f580-a22c-11eb-9775-67277ad8cb1a.PNG)
 
 b.  
-**4x2 cores**  
+**4x2 cores**    
+There are still ~5000 vertices to be labeled after 40 minutes of running. It can reasonably be assumed this setup is slower than the configuration from 3a. This makes sense because there are fewer cores available overall. 
 
 **2x2 cores** 
+I ran out of time to run the job with this setup, but this setup will benefit from only half the parallelization from worker nodes (it only has 2 opposed to 4), so I would expect this setup to be the slowest of the three. 
